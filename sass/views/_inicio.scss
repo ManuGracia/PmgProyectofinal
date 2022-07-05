@@ -1,0 +1,82 @@
+.fotopmg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    max-height: 800px;
+    max-width: 800px;
+    }
+    
+    @media(max-width: 600px){
+      .fotopmg{
+        margin-top: 50px;
+        }
+      }
+    
+    .titulodefrase{
+      background-color: none;
+      font-size: 30px;
+      text-align: center;
+      font-family: 'ITC Blair Pro Medium';
+      color: white;
+      padding-bottom: 80px;
+      margin-top: -80px;
+      text-shadow: rgba(0,0,0,0.9);
+      text-decoration-color: #043241;
+    }
+    @media(max-width: 600px){
+    .titulodefrase{
+      font-size: 20px;
+      margin-top: 0px;
+      }
+    }
+    
+    .videoinicio{
+    overflow: hidden;
+    border: 3px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    background-size: cover;
+    height: 200px;
+    margin-top: 0px;
+    }
+    
+    @media(max-width: 1300px){
+      .videoinicio{
+        display: none !important;}
+        }
+    
+    .frase
+    {
+      background-color:  #040b12;
+    flex-basis: 300px;
+    min-height: 150px;
+    color: black;
+    font-size: 25px;
+    border: 3px solid rgb(#231c1c );
+    margin: 20px;
+    box-shadow: 0 0 5px 5px black;
+    text-align: center;
+    padding: 50px;
+    font-family: 'ITC Blair Pro Medium', cursive;
+    color:    white ;
+    margin-bottom: 100px;
+    padding: 35px;
+    }
+    
+    .frase:hover{
+      background-color:  #043241  ;
+      transition: background-color 2s;
+    }
+    
+    @media(max-width: 600px){
+      .frase{
+        font-size: 15px;
+        }
+      }
+    
